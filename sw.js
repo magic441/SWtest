@@ -20,7 +20,7 @@ self.addEventListener('fetch', function(event) {
         caches
             .match(event.request)
             .then(function(response) {
-                return response ? response : fetch(event.request);
+                return cache.addAll(urlsToCache.map(url => new Request(url, {credentials: 'same-origin'})));
             })
     );
 });
