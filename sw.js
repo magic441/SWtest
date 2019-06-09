@@ -1,5 +1,6 @@
 var CACHE_NAME = 'pwa-sample-caches';
 var urlsToCache = [
+    
     '/index.html',
 ];
 
@@ -9,7 +10,7 @@ self.addEventListener('install', function(event) {
         caches
             .open(CACHE_NAME)
             .then(function(cache) {
-                return cache.addAll(urlsToCache);
+                return cache.addAll(urlsToCache.map(url => new Request(url, {credentials: 'same-origin'})));
             })
     );
 });
@@ -20,7 +21,7 @@ self.addEventListener('fetch', function(event) {
         caches
             .match(event.request)
             .then(function(response) {
-                return cache.addAll(urlsToCache.map(url => new Request(url, {credentials: 'same-origin'})));
+                return response ? response : fetch(event.request);
             })
     );
 });
