@@ -1,7 +1,7 @@
 var CACHE_NAME = 'pwa-sample-caches';
 var urlsToCache = [
     
-    '/index.html',
+    '/',
 ];
 
 // インストール処理
