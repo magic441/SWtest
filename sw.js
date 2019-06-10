@@ -24,7 +24,7 @@ const CACHE_NAME = 'static-cache-20190604_2230';
 
 // CODELAB: Add list of files to cache here.
 const FILES_TO_CACHE = [
-    '/',
+    '/index.html',
 ];
 
 self.addEventListener('install', (evt) => {
