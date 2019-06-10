@@ -2,7 +2,7 @@
     "short_name": "PWA",
     "name": "PWA sample app",
     "display": "fullscreen",
-    "start_url": "index.html",
+    "start_url": "/index.html",
     "theme_color": "#2F3BA2",
     "background_color": "#3E4EB8",
     "icons": [
