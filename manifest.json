@@ -3,11 +3,17 @@
     "name": "PWA sample app",
     "display": "fullscreen",
     "start_url": "index.html",
+    "theme_color": "#2F3BA2",
+    "background_color": "#3E4EB8",
     "icons": [
         {
             "src": "images/bomb.png",
             "sizes": "192x192",
             "type": "image/jpg"
-        }
+        }, {
+            "src": "/images/bomb_512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+          }
     ]
 }
