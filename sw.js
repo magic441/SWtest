@@ -25,7 +25,7 @@ const FILES_TO_CACHE = [
   '/index.html'
 ];
 
-/*
+
 self.addEventListener('install', (evt) => {
   console.log('[ServiceWorker] Install');
   // CODELAB: Precache static resources here.
@@ -51,4 +51,3 @@ self.addEventListener('fetch', (evt) => {
   // CODELAB: Add fetch event handler here.
 
 });
-*/
