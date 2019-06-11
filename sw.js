@@ -38,7 +38,7 @@ self.addEventListener('install', (evt) => {
   self.skipWaiting();
 });
 
-/*
+
 self.addEventListener('activate', (evt) => {
   console.log('[ServiceWorker] Activate');
   // CODELAB: Remove previous cached data from disk.
@@ -73,4 +73,3 @@ self.addEventListener('fetch', (evt) => {
           })
   );
 });
-*/
