@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
@@ -10,30 +12,17 @@
     <link rel="apple-touch-icon" href="/images/bomb.png">
     <meta name="description" content="just black">
     <meta name="theme-color" content="#2F3BA2" />
+    <script type="text/javascript" src="./voice.js"></script>
 </head>
 
 <body>
-    <h1>
-        
-    </h1>
 
-    
+<button id="butInstall" aria-label="Install" hidden></button>
 
-<script>
-  /*
-  SpeechRecognition = webkitSpeechRecognition || SpeechRecognition;
-  const recognition = new SpeechRecognition();
-  recognition.lang = 'ja-JP';
+<!-- PWAのインストール用 -->
+<script src="./install.js"></script>
 
-  recognition.continuous = true; // これこれ
-
-  recognition.onresult = (event) => {
-    console.log(event.results);
-  }
-
-  recognition.start();
-  ここまで音声認識*/
-  
+<script>  
 // CODELAB: Register service worker.
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
