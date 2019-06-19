@@ -25,14 +25,39 @@ h1{
 
 }
 
-.mirror{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+.main{
+    height: 100%;
 }
 
-.mike_button{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.mirror_area{
+    position: relative;
+    height: 50%;
+    text-align: center;
+    top: 20%;
+    animation-name: fadeIn;
+    animation-duration: 10s;
+}
+
+.mirror_pic{
+    max-width: 100%;
+    width: auto;
+	height: auto;
+}
+
+.mike_area{
+    position: relative;
+    text-align: center;
+    top: 30%;
+}
+.mike_pic{
+    width: 100px;
+    height: 100px;
 }

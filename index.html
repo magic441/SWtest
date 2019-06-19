@@ -12,17 +12,18 @@
     <link rel="apple-touch-icon" href="/images/bomb.png">
     <meta name="description" content="just black">
     <meta name="theme-color" content="#2F3BA2" />
+    <script src="./jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="./voice.js"></script>
 </head>
 
 <body>
   <div class = "main">
-    <div class = "mirror">
-      <img src = "./images/mirrorman2.png" >
+    <div class = "mirror_area">
+      <img class = "mirror_pic" src = "./images/mirrorman2.png" >
     </div>
 
-    <div class = "mike_button">
-      <img src = "./images/mike_icon.png">
+    <div class = "mike_area">
+      <img class = "mike_pic" src = "./images/mike_icon.png">
 
     </div>
 
@@ -35,7 +36,8 @@
 <script src="./install.js"></script>
 
 <script>  
-// CODELAB: Register service worker.
+
+/*/ CODELAB: Register service worker.
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('./sw.js')
@@ -44,6 +46,7 @@ if ('serviceWorker' in navigator) {
         });
   });
 }
+*/
 </script>
 
 </body>

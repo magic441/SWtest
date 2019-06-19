@@ -1,4 +1,6 @@
   
+
+  
   SpeechRecognition = webkitSpeechRecognition || SpeechRecognition;
   const recognition = new SpeechRecognition();
   recognition.lang = 'ja-JP';
