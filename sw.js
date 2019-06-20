@@ -23,7 +23,11 @@ const CACHE_NAME = 'static-cache-v1';
 // CODELAB: Add list of files to cache here.
 const FILES_TO_CACHE = [
   './',
-  './index.html'
+  './index.html',
+  './install.js',
+  './jquery-3.4.1.min.js',
+  './voice.js',
+  './index.css',
 ];
 
 

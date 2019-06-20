@@ -33,6 +33,15 @@ h1{
         opacity:1;
     }
 }
+
+@keyframes fadeOut {
+    0% {
+        opacity:1;
+    }
+    100% {
+        opacity:0;
+    }
+}
 .main{
     height: 100%;
 }
@@ -42,8 +51,7 @@ h1{
     height: 50%;
     text-align: center;
     top: 20%;
-    animation-name: fadeIn;
-    animation-duration: 10s;
+    visibility:hidden;
 }
 
 .mirror_pic{
