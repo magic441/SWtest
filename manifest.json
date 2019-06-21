@@ -1,6 +1,6 @@
 {
-    "short_name": "PWA",
-    "name": "PWA sample app",
+    "short_name": "mirror",
+    "name": "kagami yo kagami ...",
     "display": "fullscreen",
     "start_url": "https://magic441.github.io/SWtest/",
     "theme_color": "#2F3BA2",
